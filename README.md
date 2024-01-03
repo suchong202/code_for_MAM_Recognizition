@@ -1,0 +1,1 @@
+Quantitative assessment and rapid recognition of “twisting” and “lifting and inserting” manual acupuncture manipulations by machine-learning-based interpretation of ultrasound images of subcutaneous muscle tissues nearby acupoint areas
