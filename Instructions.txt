@@ -1,0 +1,23 @@
+One、Conventional classifier
+1、The xlsx files used in the classifier.py file are in the "classifier" folder in “Data"
+2、Run classifier.py to get the classification effect under the traditional classifier
+
+Two、Multi-scale feature extraction and AWA feature fusion code
+1、Data set preparation：run data_divide.py，The paths of the training and test data are stored in the cls_train_fusion.txt and cls_test_fusion.txt files, respectively.
+2、Run train.py for network training
+3、Run test.py to test the training effect
+4、Instructions: fusion_model.py stores the programs that train.py needs to call, including feature fusion and feature extraction methods
+
+Three、Vertical pixel projection
+1、ty.m is matlab code for calculating vertical pixel projections
+2、VerticalProject.m is the calculation formula for the vertical pixel projection, which is called in the ty.m file
+
+Four、Fitted line
+1、run line.py
+
+Five、U-Net segmentation
+1、Run the annotation.py file and store the paths of the training and test data in the files cls_train.txt and cls_test.txt, respectively
+2、Run the utrain.py file to train the network
+3、The segmented muscle ultrasound video was obtained by running upredict.py
+
+Instructions: the experimental environment used is Pytorch1.7, Python3.7, and matlab2020b
