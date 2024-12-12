@@ -1,0 +1,4 @@
+logs\ep060-loss0.316-val_loss0.296.pth--mov2+ada+aspp (32 output channels);
+logs\ep100-loss0.296-val_loss0.424.pth--mov2+nor(Note: The number of output channels that need to be changed to fusion_model is 1280);
+logs\ep100-loss0.281-val_loss0.494.pth--mov2+nor+aspp(32 output channels);
+The above are some of the weighting documents for ablation experiments for reference.
