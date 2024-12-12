@@ -1,0 +1,5 @@
+1. The Muscle ultrasonic video folder contains the raw ultrasound data without any processing(.avi format) ；
+2. The U-Net folder contains the examples of annotation and segmention;
+3. Features folder contains the examples of the results of three types of feature extraction;
+4. classifier folder contains the specific values of the characteristic curve examples in the Features folder.
+Since our dataset is continuously expanding and simultaneously supporting other research, we cannot fully upload it to GitHub. If other researchers need access, please contact the corresponding author (E-mail: suchong@mail.buct.edu.cn ).
