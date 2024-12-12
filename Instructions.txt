@@ -20,4 +20,12 @@ Five、U-Net segmentation
 2、Run the utrain.py file to train the network
 3、The segmented muscle ultrasound video was obtained by running upredict.py
 
+Six、model_data
+Some models initialize parameter files for reference
+
+Seven、logs
+There are some of the weighting documents for ablation experiments for reference
+
+Since our dataset is continuously expanding and simultaneously supporting other research, we cannot fully upload it to GitHub. If other researchers need access, please contact the corresponding author (E-mail: suchong@mail.buct.edu.cn ).
+
 Instructions: the experimental environment used is Pytorch1.7, Python3.7, and matlab2020b
